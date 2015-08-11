@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		A2E0C7591B65D1D300273E64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E0C7581B65D1D300273E64 /* main.m */; };
+		A2E0C7611B65DA9500273E64 /* FrequentWordsAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E0C7601B65DA9500273E64 /* FrequentWordsAnalyzer.m */; };
+		A2E0C7641B65DD2300273E64 /* WordToFrequency.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E0C7631B65DD2300273E64 /* WordToFrequency.m */; };
+		A2E0C76B1B66062300273E64 /* FrequencyToWords.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E0C76A1B66062300273E64 /* FrequencyToWords.m */; };
+		A2E0C79B1B68A5A700273E64 /* FrequencyToWords.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E0C76A1B66062300273E64 /* FrequencyToWords.m */; };
+		A2E0C79C1B68A5AA00273E64 /* WordToFrequency.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E0C7631B65DD2300273E64 /* WordToFrequency.m */; };
+		A2E0C79D1B68A5AD00273E64 /* FrequentWordsAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E0C7601B65DA9500273E64 /* FrequentWordsAnalyzer.m */; };
+		A2E0C7A01B68A62E00273E64 /* WordToFrequencyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E0C79F1B68A62E00273E64 /* WordToFrequencyTest.m */; };
+		A2E0C7A21B68A65500273E64 /* FrequencyToWordTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E0C7A11B68A65500273E64 /* FrequencyToWordTest.m */; };
+		A2E0C7A41B68A67300273E64 /* FrequentWordsAnalyzerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E0C7A31B68A67300273E64 /* FrequentWordsAnalyzerTest.m */; };
+		A2E0C7AD1B68B16A00273E64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E0C7581B65D1D300273E64 /* main.m */; };
+		A2E0C7B01B68B47400273E64 /* runner.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E0C7AE1B68B47400273E64 /* runner.m */; };
+		A2E0C7B11B68B47400273E64 /* runner.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E0C7AE1B68B47400273E64 /* runner.m */; };
+		A2E0C7B41B68B59300273E64 /* PopularWordsRunnerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E0C7B21B68B59200273E64 /* PopularWordsRunnerTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +38,31 @@
 /* Begin PBXFileReference section */
 		A2E0C7551B65D1D300273E64 /* PopularWords */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PopularWords; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E0C7581B65D1D300273E64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2E0C75F1B65DA9500273E64 /* FrequentWordsAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrequentWordsAnalyzer.h; sourceTree = "<group>"; };
+		A2E0C7601B65DA9500273E64 /* FrequentWordsAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrequentWordsAnalyzer.m; sourceTree = "<group>"; };
+		A2E0C7621B65DD2300273E64 /* WordToFrequency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordToFrequency.h; sourceTree = "<group>"; };
+		A2E0C7631B65DD2300273E64 /* WordToFrequency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordToFrequency.m; sourceTree = "<group>"; };
+		A2E0C7691B66062300273E64 /* FrequencyToWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrequencyToWords.h; sourceTree = "<group>"; };
+		A2E0C76A1B66062300273E64 /* FrequencyToWords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrequencyToWords.m; sourceTree = "<group>"; };
+		A2E0C7901B68A53800273E64 /* PopularWordsTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopularWordsTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2E0C7931B68A53800273E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2E0C79F1B68A62E00273E64 /* WordToFrequencyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordToFrequencyTest.m; sourceTree = "<group>"; };
+		A2E0C7A11B68A65500273E64 /* FrequencyToWordTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrequencyToWordTest.m; sourceTree = "<group>"; };
+		A2E0C7A31B68A67300273E64 /* FrequentWordsAnalyzerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrequentWordsAnalyzerTest.m; sourceTree = "<group>"; };
+		A2E0C7AE1B68B47400273E64 /* runner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = runner.m; sourceTree = "<group>"; };
+		A2E0C7AF1B68B47400273E64 /* runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = runner.h; sourceTree = "<group>"; };
+		A2E0C7B21B68B59200273E64 /* PopularWordsRunnerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopularWordsRunnerTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A2E0C7521B65D1D300273E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E0C78D1B68A53800273E64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				A2E0C7571B65D1D300273E64 /* PopularWords */,
+				A2E0C7911B68A53800273E64 /* PopularWordsTest */,
 				A2E0C7561B65D1D300273E64 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				A2E0C7551B65D1D300273E64 /* PopularWords */,
+				A2E0C7901B68A53800273E64 /* PopularWordsTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +94,36 @@
 			isa = PBXGroup;
 			children = (
 				A2E0C7581B65D1D300273E64 /* main.m */,
+				A2E0C7AF1B68B47400273E64 /* runner.h */,
+				A2E0C7AE1B68B47400273E64 /* runner.m */,
+				A2E0C75F1B65DA9500273E64 /* FrequentWordsAnalyzer.h */,
+				A2E0C7601B65DA9500273E64 /* FrequentWordsAnalyzer.m */,
+				A2E0C7621B65DD2300273E64 /* WordToFrequency.h */,
+				A2E0C7631B65DD2300273E64 /* WordToFrequency.m */,
+				A2E0C7691B66062300273E64 /* FrequencyToWords.h */,
+				A2E0C76A1B66062300273E64 /* FrequencyToWords.m */,
 			);
 			path = PopularWords;
+			sourceTree = "<group>";
+		};
+		A2E0C7911B68A53800273E64 /* PopularWordsTest */ = {
+			isa = PBXGroup;
+			children = (
+				A2E0C7A11B68A65500273E64 /* FrequencyToWordTest.m */,
+				A2E0C7A31B68A67300273E64 /* FrequentWordsAnalyzerTest.m */,
+				A2E0C7B21B68B59200273E64 /* PopularWordsRunnerTest.m */,
+				A2E0C79F1B68A62E00273E64 /* WordToFrequencyTest.m */,
+				A2E0C7921B68A53800273E64 /* Supporting Files */,
+			);
+			path = PopularWordsTest;
+			sourceTree = "<group>";
+		};
+		A2E0C7921B68A53800273E64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2E0C7931B68A53800273E64 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +146,23 @@
 			productReference = A2E0C7551B65D1D300273E64 /* PopularWords */;
 			productType = "com.apple.product-type.tool";
 		};
+		A2E0C78F1B68A53800273E64 /* PopularWordsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2E0C7961B68A53800273E64 /* Build configuration list for PBXNativeTarget "PopularWordsTest" */;
+			buildPhases = (
+				A2E0C78C1B68A53800273E64 /* Sources */,
+				A2E0C78D1B68A53800273E64 /* Frameworks */,
+				A2E0C78E1B68A53800273E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopularWordsTest;
+			productName = PopularWordsTest;
+			productReference = A2E0C7901B68A53800273E64 /* PopularWordsTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +173,9 @@
 				ORGANIZATIONNAME = "Vera Lukman";
 				TargetAttributes = {
 					A2E0C7541B65D1D300273E64 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A2E0C78F1B68A53800273E64 = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
@@ -109,16 +193,47 @@
 			projectRoot = "";
 			targets = (
 				A2E0C7541B65D1D300273E64 /* PopularWords */,
+				A2E0C78F1B68A53800273E64 /* PopularWordsTest */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2E0C78E1B68A53800273E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A2E0C7511B65D1D300273E64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E0C76B1B66062300273E64 /* FrequencyToWords.m in Sources */,
+				A2E0C7B01B68B47400273E64 /* runner.m in Sources */,
 				A2E0C7591B65D1D300273E64 /* main.m in Sources */,
+				A2E0C7641B65DD2300273E64 /* WordToFrequency.m in Sources */,
+				A2E0C7611B65DA9500273E64 /* FrequentWordsAnalyzer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E0C78C1B68A53800273E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E0C7B41B68B59300273E64 /* PopularWordsRunnerTest.m in Sources */,
+				A2E0C7A21B68A65500273E64 /* FrequencyToWordTest.m in Sources */,
+				A2E0C79C1B68A5AA00273E64 /* WordToFrequency.m in Sources */,
+				A2E0C7B11B68B47400273E64 /* runner.m in Sources */,
+				A2E0C79B1B68A5A700273E64 /* FrequencyToWords.m in Sources */,
+				A2E0C79D1B68A5AD00273E64 /* FrequentWordsAnalyzer.m in Sources */,
+				A2E0C7A01B68A62E00273E64 /* WordToFrequencyTest.m in Sources */,
+				A2E0C7AD1B68B16A00273E64 /* main.m in Sources */,
+				A2E0C7A41B68A67300273E64 /* FrequentWordsAnalyzerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +331,38 @@
 			};
 			name = Release;
 		};
+		A2E0C7971B68A53800273E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PopularWordsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2E0C7981B68A53800273E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PopularWordsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -235,6 +382,16 @@
 				A2E0C75E1B65D1D300273E64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2E0C7961B68A53800273E64 /* Build configuration list for PBXNativeTarget "PopularWordsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2E0C7971B68A53800273E64 /* Debug */,
+				A2E0C7981B68A53800273E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

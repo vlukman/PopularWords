@@ -7,11 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "runner.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSUInteger frequentWordsCount;
+        NSString* text;
+        BOOL validArguments = parseArgumentsFromCommandLine(argc, argv, &frequentWordsCount, &text);
+        if (validArguments) {
+            NSArray* frequentWords = mostFrequentWordsInText(text, frequentWordsCount);
+            NSLog(@"Top %tu most frequent words: %@", frequentWordsCount, frequentWords);
+        }
+        else {
+             NSLog(@"Description: This proram will print n most frequently occuring words in provided text, n has to be more than 0\nUsage: popularWords <n> <text>\nExample: ./PopularWords 1 \"test tEst TEST Text\"");
+        }
     }
     return 0;
 }
+
